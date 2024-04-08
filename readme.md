@@ -13,3 +13,7 @@ Instalar navegadores y dependencias de Playwright
 ```    
 npx playwright install
 ```
+Ejecutar tests
+```    
+npx playwright test fakeStore.test.ts
+```
