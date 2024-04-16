@@ -2,7 +2,7 @@ import test, { expect } from "@playwright/test";
 
 const baseURL = process.env.fakeStore_url
 
-test.describe('Fake Store API', () => {
+test.describe('Fake Store API', () => {        
     test('Get all Products', async ({ request }) => {
         const products = await request.get(`${baseURL}/products`)
         console.log(await products.json())
